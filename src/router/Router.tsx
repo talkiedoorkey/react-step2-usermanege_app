@@ -5,9 +5,10 @@ import { Login } from "../components/pages/Login";
 
 export const Router: VFC = memo(() => {
   return (
-  <Switch>
-    <Route exact path="/">
-      <Login />
-    </Route>
-  </Switch>
+    <Switch>
+      <Route exact path="/">
+        <Login />
+      </Route>
+    </Switch>
+  );
 });
